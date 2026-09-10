@@ -1,6 +1,3 @@
-/* =====================================================
-   PRELOADER
-===================================================== */
 
 window.addEventListener("load", () => {
 
@@ -12,10 +9,6 @@ window.addEventListener("load", () => {
 
 });
 
-
-/* =====================================================
-   CUSTOM CURSOR
-===================================================== */
 
 const cursor = document.querySelector(".cursor");
 const follower = document.querySelector(".cursor-follower");
@@ -31,9 +24,6 @@ document.addEventListener("mousemove", (e) => {
 });
 
 
-/* =====================================================
-   TYPING EFFECT
-===================================================== */
 
 const typingElement = document.getElementById("typing");
 
@@ -97,9 +87,6 @@ function typeEffect() {
 typeEffect();
 
 
-/* =====================================================
-   NAVBAR SCROLL
-===================================================== */
 
 const navbar = document.querySelector(".navbar");
 
@@ -114,9 +101,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =====================================================
-   MOBILE MENU
-===================================================== */
 
 const menuToggle = document.getElementById("menuToggle");
 const navMenu = document.querySelector(".nav-menu");
@@ -139,9 +123,6 @@ navLinks.forEach(link => {
 });
 
 
-/* =====================================================
-   SCROLL REVEAL
-===================================================== */
 
 const revealElements = document.querySelectorAll(
     ".section-heading, .about-grid, .skill-card, .project-card, .timeline-item, .contact-content"
@@ -176,9 +157,6 @@ revealElements.forEach(element => {
 });
 
 
-/* =====================================================
-   PROJECT STAGGER ANIMATION
-===================================================== */
 
 const projectCards =
     document.querySelectorAll(".project-card");
@@ -191,9 +169,7 @@ projectCards.forEach((card, index) => {
 });
 
 
-/* =====================================================
-   SKILL STAGGER
-===================================================== */
+
 
 const skillCards =
     document.querySelectorAll(".skill-card");
@@ -206,9 +182,7 @@ skillCards.forEach((card, index) => {
 });
 
 
-/* =====================================================
-   ACTIVE NAVIGATION
-===================================================== */
+
 
 const sections =
     document.querySelectorAll("section[id]");
@@ -248,9 +222,6 @@ window.addEventListener("scroll", () => {
 });
 
 
-/* =====================================================
-   BACK TO TOP
-===================================================== */
 
 const backTop =
     document.getElementById("backTop");
@@ -279,9 +250,6 @@ backTop.addEventListener("click", () => {
 });
 
 
-/* =====================================================
-   MAGNETIC BUTTON EFFECT
-===================================================== */
 
 const buttons =
     document.querySelectorAll(".btn, .nav-button");
@@ -314,9 +282,7 @@ buttons.forEach(button => {
 });
 
 
-/* =====================================================
-   PARALLAX HERO
-===================================================== */
+
 
 const profileCard =
     document.querySelector(".profile-card");
